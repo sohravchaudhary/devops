@@ -1,0 +1,24 @@
+1.docker pull python:latest
+2.docker build -t bitu .
+3.docker run -p 3000:3000 bitu
+4.docker run -p 8080:8080 -p 5000:5000 -d -v jenkins_home/var/jenkins_home jenkins/jenkins:lts
+5.docker ps 
+6.id copy karvu c0f9c445ab6b
+7.docker logs c0f9c445ab6b
+8.id ecbfee0ed4f34c9db4ab4a2d8d456ba0
+9.open localhost using port 8080
+10.id to login 
+ 
+
+
+jenkins login 
+
+->Build Steps
+	.select Execute shell
+
+command
+1->echo "hello, today is ($date)" > /tmp/jenkins_test
+--------------------------------------------------------------------------------------------------------------------
+2->echo "creating Dockerfile...."
+echo "FROM imiell/bad-dockerfile:latest" > Dockerfile
+

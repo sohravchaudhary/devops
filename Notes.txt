@@ -1,0 +1,52 @@
+To pull any image use command:
+	docker pull imagename[python/openjdk/node]:latest
+
+To build a docker image use command:
+	docker build -t python-hello-world .[give any name]
+	-t for tag
+
+To see a docker image list use command:
+	docker images	OR	docker image ls
+
+To run docker image use command:
+	docker run -p 3000:3000 python-hello-world
+	-p for port binding
+
+To stop stucking terminal:
+	docker run -d -p 3000:3000 python-hello-world
+	-d for detach mode
+
+To remove image:
+	docker rmi -f something[image id]
+	-f for force
+
+To install node:
+npx create-react-app project
+
+To start node:
+npm start
+
+To create container & pull an image:
+	docker run -it --name [containerName] [imageName]
+
+To show container:
+	docker ps -a
+
+To remove container:
+	docker rm [containerId]
+
+
+
+
+Demonstrate the process of launching Jenkins as Docker container with practical steps:
+To pull Jenkins file:
+	docker run -p 8080:8080 -p 5000:5000 -d -v jenkins_home:/var/jekins_home jenkins/jenkins:lts
+
+docker ps
+
+docker logs [ContainerID]
+
+Copy the password
+
+open chrome: localhost:8080
+

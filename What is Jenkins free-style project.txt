@@ -1,0 +1,32 @@
+What is Jenkins free-style project?
+Jenkins free-style project is a configuration & option based project which will allow you to build, test & deploy.
+The application will automation by selecting required configuration based on the requirement following are the some free-style project:
+-Building & testing code,
+-Packaging an application,
+-Deploying application to production servers,
+-Running reports.
+
+
+What is Jenkins pipelines?
+In Jenkins, a pipeline is a collection of an events or jobs which are interlinked with one another in a sequence.
+It is a combination of plugins that support the integration & implementation of continuous delivery pipeline using Jenkins.
+
+
+What is continuous delivery pipelines?
+-Build
+-Deploy
+-Test
+-Release
+
+
+Name three different pipelines in Jenkins:
+-CI/CD pipeline
+-Scripted pipeline
+-Declarative pipeline
+
+
+How can you setup Jenkins job?
+1. Select new item from the menu
+2. Enter a name for a job & select free-style job
+3. Click ok to create a new job
+4. The next that appear will allow you to configure your job
